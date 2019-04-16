@@ -1,0 +1,14 @@
+@media all {
+    /* sets the base font size for all user agents that support media queries */
+    html {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 480px) {
+    /* sets a larger base font size for viewports with a minimum with of 480px, e.g. tablets, desktops, jumbotrons, etc. */
+    html {
+        font-size: 24px;
+    }
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
