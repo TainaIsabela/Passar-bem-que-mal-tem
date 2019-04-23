@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.menu{
+  height: 80px;
+  background-color: #500080;
+  
+ /*background-color: #a74ced;  */
+  
+}
+.ul2 li:hover{
+  color: #a74ced;
+}
+.ul1{
+  display: inline;
+}
+.ul1 li{
+  display: inline;
+  margin-top: 1%;
+  float: left;
+  color: aliceblue;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: cursive;
+  margin-left: 13%;
+}
+.ul2{
+  display: inline;
+}
+.ul2 li{
+   margin-top: 1.5%;
+   color: aliceblue;
+   display: inline;
+   float: right;
+   font-size: 20px;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+.banner{
+  width: 100%;
+  
+}
