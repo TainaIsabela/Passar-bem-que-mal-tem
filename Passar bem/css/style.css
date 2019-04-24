@@ -96,3 +96,44 @@
   font-size: 150%;
   font-style: normal;
 }
+
+/*Quiz*/
+.exemplo1 input[type=radio]{
+    display:none; /* Esconde os inputs */
+}
+ 
+.exemplo1 input[type=radio] + label{
+    display:inline-block;
+    height:20px;
+    padding:0 0 0 25px;
+    margin:0 10px 0 0;
+    background-image:url(../img/ico-master3.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    font-size: large;
+}
+ 
+.exemplo1 input[type=radio]:checked + label{
+    background-position:0 -30px;
+    font-size: large;
+}
+
+.textoquiz1 {
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.textoquiz2 {
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.titquiz {
+  font-family: "Watermelon";
+  margin-top: 10%;
+  font-size: 45px;
+  text-align: center;
+  color: purple;
+}
