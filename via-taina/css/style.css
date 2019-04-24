@@ -39,6 +39,60 @@
    margin-right: 2%;
 }
 .banner{
-  width: 100%;
+  width: 100%; 
+}
+.apre{
+  margin-top: 1%;
+  margin-left: 20%;
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  color: aliceblue;
+  background-color: #500080;
+}
+.font-apre1{
+  padding-top: 3%;
+  font-size: 50px;
+  font-family: fantasy;
+  font-style: oblique;
   
+}
+.font-apre2{
+  font-size: 20px;
+  font-family:sans-serif;
+}
+.apreimg{
+  display: inline;
+  margin-right: 0%;
+  background: transparent;
+  margin-top: -15%;
+  transform: translate(0, 15%);
+  position: absolute;
+  overflow: hidden;
+}
+.apreimg img{
+  margin-left: 0.75%;
+  margin-right: 0.3%;
+  width: 23.5%;
+  max-width: 80%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.apreimg img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.apretex{
+  margin-top: 6%;
+}
+.apretex li {
+  text-align: center;
+  display: inline;
+  margin-left:9.4%;
+  margin-right: 9.4%;
+  font-family: monospace;
+  font-size: 150%;
+  font-style: normal;
 }
