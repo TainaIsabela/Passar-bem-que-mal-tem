@@ -3,7 +3,11 @@
   margin: 0;
 }
 
-
+/*Fontes*/
+@font-face{
+  font-family:"Watermelon";
+  src:url("fontes/watermelon/Watermelon.ttf") format("truetype");
+}
 
 .menu{
   height: 80px;
@@ -55,8 +59,7 @@
 .font-apre1{
   padding-top: 3%;
   font-size: 50px;
-  font-family: fantasy;
-  font-style: oblique;
+  font-family: "Watermelon";
   
 }
 .font-apre2{
