@@ -1,71 +1,193 @@
-*{
-  padding: 0;
-  margin: 0;
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: inherit;
 }
-
-/*Fontes*/
 @font-face{
   font-family:"Watermelon";
   src:url("fontes/watermelon/Watermelon.ttf") format("truetype");
 }
+.nave {
+    background: #B38EFF;
+    height: 77px;
+}
 
+.nav--div{
+    padding: 25px;
+}
 
-.menu{
-  height: 80px;
-  background-color: #500080;
-  
- /*background-color: #a74ced;  */
-  
+.tit {
+    float: left;
+    color: white;
+    list-style:  none;
+    display: inline;
+    margin-right: 45%;
+    margin-left: 7%;
+    
 }
-.ul2 li:hover{
-  color: #a74ced;
+
+.tit--li {
+    font-size: 25px;
 }
-.ul1{
-  display: inline;
+
+.menu {
+    list-style: none;
 }
-.ul1 li{
-  display: inline;
-  margin-top: 1%;
-  float: left;
-  color: aliceblue;
-  font-size: 35px;
-  font-style: oblique;
-  font-family: cursive;
-  margin-left: 13%;
+
+.menu--li{
+    display: inline;
+    margin-right: 3%;
 }
-.ul2{
-  display: inline;
+
+.menu--li a {
+    text-decoration: none;
+    color: white;
 }
-.ul2 li{
-   margin-top: 2.5%;
-   color: aliceblue;
-   display: inline;
-   float: right;
-   font-size: 20px;
-   margin-left: 2%;
-   margin-right: 2%;
+header{
+    position: relative;
 }
-.banner{
-  width: 100%; 
+.banner {
+    background-color: #C4A7FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.banner--img {
+    width: 100%;
+    margin-top: 30vh;
+
+}
+
+.cards {
+    top: 0;
+    
+}
+
+.card1-img{
+    background-image: url(../img/biologia.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.card2-img{
+    background-image: url(../img/teste2.jpg);
+    height: 100%;
+    background-size: cover;
+}
+.card3-img{
+    background-image: url(../img/fones.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
+.card-1 {
+    width: 28%;
+    height: 80vh;
+    display: inline;
+    float: left;
+    margin-right: 5%;
+    margin-left: 2%;
+
+}
+.card-2{
+    width: 28%;
+    height: 80vh;
+    display: inline;
+    float: left;
+    margin-right: 5%;
+    
+}
+.card-3{
+    width: 28%;
+    height: 80vh;
+    display: inline;
+    float: left;
+    margin-right: 2%;
+}
+
+.btn1 {
+    background-color: rgba(179, 142, 255, .5);
+    color: white;
+    margin-left: 33%;
+    transform: translate(-33%, 0);
+    padding: 5% 10%;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.card-btn{
+    margin-top: -15%;
+    transform: translate(0, -15%);
 }
 .apre{
-  margin-top: 1%;
+  color: #B38EFF;
+  margin-top: 100vh;
   margin-left: 20%;
-  height: 400px;
+  height: 30vh;
   width: 60%;
   text-align: center;
-  color: aliceblue;
-  background-color: #500080;
 }
 .font-apre1{
   padding-top: 3%;
   font-size: 50px;
-  font-family: "Watermelon";
+  font-family:monospace;
   
 }
 .font-apre2{
   font-size: 20px;
   font-family:sans-serif;
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 45%;
+}
+.font-con{
+  text-align: center;
+  color: #B38EFF;
+  padding-top: 3%;
+  font-size: 250%;
+  font-family:monospace;
+}
+
+.dica1{
+    margin-left: 10%;
+    margin-top: 10%;
+    background-color: rgba(179, 142, 255, .7);
+    width: 60%;
+    height: 40vh;  
+    margin-bottom: 5%;
+    position: absolute;
+}
+.dica2{
+    margin-left: 10%;
+    margin-top: 40%;
+   background-color: rgba(179, 142, 255, .7);
+    width: 60%;
+    height: 40vh;   
+    margin-bottom: 5%;
+    position: absolute;
+}
+.dica3{
+    margin-left: 10%;
+    margin-top: 70%;
+    background-color: rgba(179, 142, 255, .7);
+    width: 60%;
+    height: 40vh;   
+    margin-bottom: 5%;
+    position: absolute;
+}
+
+.tex-dicas{
+    color: aliceblue;
+    margin-top: -25%;
+    margin-left: 45%;
+}
+.dica1-img{
+    width: 40%;
+    height: 40vh;
 }
 .apreimg{
   display: inline;
@@ -90,17 +212,45 @@
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
-.apretex{
-  margin-top: 6%;
+.resto{
+    margin-top: 200vh;
+    height: 100px;
+    width: 100%;
 }
-.apretex li {
-  text-align: center;
-  display: inline;
-  margin-left:9.4%;
-  margin-right: 9.4%;
-  font-family: monospace;
-  font-size: 150%;
-  font-style: normal;
+.tit-ob{
+    padding-top: 3%;
+    text-align:justify; 
+    margin-top: 10%;
+    margin-left: 10%;
+    color:white;
+    font-family:monospace;
+    position: absolute;
+}
+.tex-ob{
+    padding-top: 3%;
+    font-size: 20px;
+    text-align:justify; 
+    margin-top: 15%;
+    margin-left: 10%;
+    color:white;
+    font-family: cursive;
+    position: absolute;
+}
+.tex-rod{
+    padding-top: 3%;
+    font-size: 20px;
+    text-align:justify; 
+    margin-top: 38%;
+    margin-left: 10%;
+    color:white;
+    font-family: cursive;
+    position: absolute;
+}
+.rod-img{
+    z-index: -1;
+    width: 100%;
+    height: 90vh;   
+    position: relative;
 }
 
 /*Quiz*/
@@ -163,7 +313,3 @@
         padding-top: 1%;
         padding-bottom: 1%;
   }
-
-
-
-
