@@ -152,6 +152,7 @@ header{
   font-family:monospace;
 }
 
+
 .dica1{
     margin-left: 10%;
     margin-top: 10%;
@@ -160,6 +161,8 @@ header{
     height: 40vh;  
     margin-bottom: 5%;
     position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 .dica2{
     margin-left: 10%;
@@ -169,6 +172,8 @@ header{
     height: 40vh;   
     margin-bottom: 5%;
     position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 .dica3{
     margin-left: 10%;
@@ -178,6 +183,8 @@ header{
     height: 40vh;   
     margin-bottom: 5%;
     position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 }
 
 .tex-dicas{
@@ -188,30 +195,13 @@ header{
 .dica1-img{
     width: 40%;
     height: 40vh;
+    border-radius: 3px;
 }
-.apreimg{
-  display: inline;
-  margin-right: 0%;
-  background: transparent;
-  margin-top: -15%;
-  transform: translate(0, 15%);
-  position: absolute;
-  overflow: hidden;
+.dica1-img:hover{
+   transform: scale(1.1);
+   transition: all .4s ease;
 }
-.apreimg img{
-  margin-left: 0.75%;
-  margin-right: 0.3%;
-  width: 23.5%;
-  max-width: 80%;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.apreimg img:hover{
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+
 .resto{
     margin-top: 200vh;
     height: 100px;
