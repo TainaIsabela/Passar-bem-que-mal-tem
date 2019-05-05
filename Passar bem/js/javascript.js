@@ -1,7 +1,5 @@
-<script language="Javascript">
-function Enviar1()
+function Teste()
 {
-document.getElementById("teste").innerHTML = 'aeeee';
-}
-</script>
+alert("function called");
+};
 
