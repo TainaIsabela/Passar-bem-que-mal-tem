@@ -1,0 +1,169 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*Fontes*/
+@font-face{
+  font-family:"Watermelon";
+  src:url("fontes/watermelon/Watermelon.ttf") format("truetype");
+}
+
+
+.menu{
+  height: 80px;
+  background-color: #500080;
+  
+ /*background-color: #a74ced;  */
+  
+}
+.ul2 li:hover{
+  color: #a74ced;
+}
+.ul1{
+  display: inline;
+}
+.ul1 li{
+  display: inline;
+  margin-top: 1%;
+  float: left;
+  color: aliceblue;
+  font-size: 35px;
+  font-style: oblique;
+  font-family: cursive;
+  margin-left: 13%;
+}
+.ul2{
+  display: inline;
+}
+.ul2 li{
+   margin-top: 2.5%;
+   color: aliceblue;
+   display: inline;
+   float: right;
+   font-size: 20px;
+   margin-left: 2%;
+   margin-right: 2%;
+}
+.banner{
+  width: 100%; 
+}
+.apre{
+  margin-top: 1%;
+  margin-left: 20%;
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  color: aliceblue;
+  background-color: #500080;
+}
+.font-apre1{
+  padding-top: 3%;
+  font-size: 50px;
+  font-family: "Watermelon";
+  
+}
+.font-apre2{
+  font-size: 20px;
+  font-family:sans-serif;
+}
+.apreimg{
+  display: inline;
+  margin-right: 0%;
+  background: transparent;
+  margin-top: -15%;
+  transform: translate(0, 15%);
+  position: absolute;
+  overflow: hidden;
+}
+.apreimg img{
+  margin-left: 0.75%;
+  margin-right: 0.3%;
+  width: 23.5%;
+  max-width: 80%;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.apreimg img:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.apretex{
+  margin-top: 6%;
+}
+.apretex li {
+  text-align: center;
+  display: inline;
+  margin-left:9.4%;
+  margin-right: 9.4%;
+  font-family: monospace;
+  font-size: 150%;
+  font-style: normal;
+}
+
+/*Quiz*/
+.exemplo1 input[type=radio]{
+    display:none; /* Esconde os inputs */
+}
+ 
+.exemplo1 input[type=radio] + label{
+    display:inline-block;
+    height:20px;
+    padding:0 0 0 25px;
+    margin:0 10px 0 0;
+    background-image:url(../img/ico-master3.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    font-size: large;
+}
+ 
+.exemplo1 input[type=radio]:checked + label{
+    background-position:0 -30px;
+    font-size: large;
+}
+
+.textoquiz1 {
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.textoquiz2 {
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 10%
+}
+
+.titquiz {
+  font-family: "Watermelon";
+  margin-top: 10%;
+  font-size: 45px;
+  text-align: center;
+  color: purple;
+}
+
+.botquiz {
+    
+    margin-top: 5%;
+    margin-left: 50%
+  }
+
+.labelquiz {
+
+}
+  .botquiz2{
+    background:purple;
+        color:#ffffff;
+        width: 12%;
+        text-align: center;
+        font-size: 20px;
+        padding-top: 1%;
+        padding-bottom: 1%;
+  }
+
+
+
+
