@@ -267,14 +267,13 @@ header{
 .textoquiz1 {
   font-size: large;
   margin-left: 10%;
-  margin-top: 10%;
 }
 
 .textoquiz2 {
   font-size: large;
   margin-left: 10%;
-  margin-top: 5%;
-  margin-right: 10%
+  margin-top: 7%;
+  margin-right: 8%
 }
 
 .titquiz {
@@ -282,28 +281,91 @@ header{
   margin-top: 10%;
   font-size: 45px;
   text-align: center;
-  color: purple;
+  color:  #B38EFF;
+  margin-bottom: 10%;
 }
 
 .botquiz {
-    
     margin-top: 5%;
     margin-left: 50%
   }
 
+.res{
+    margin-top: 2%;
+    display: none;
+}
+
 .labelquiz {
 
 }
-  .botquiz2{
-        background:purple;
-        color:#ffffff;
-        width: 14%;
+.botquiz2{
+        background:white;
+        color:black;
+        border-width: 1%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: black;
+        width: 15%;
         text-align: center;
-        font-size: 20px;
-        padding-top: 1%;
-        padding-bottom: 1%;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
   }
+  .botquiz2:hover{
+        border-width: 1%;
+        background: white;
+        color:black;
+        border-top-color: black;
+        border-right-color: black;
+        border-left-color: black;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+  }
+  .botquiz2:active{
+        border-width: 1%;
+        background: black;
+        color: white;
+        border-top-color: black;
+        border-right-color: black;
+        border-left-color: black;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%; 
+  }
+  .botquiz2:visited{
+       background:white;
+        color:black;
+        border-width: 1%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+  }
+
+  .botquiz2:focus{
+outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.buttonDiv:focus {
+ outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
 .quiz{
-  margin-top: 100vh;
-  
+  margin-top: 107vh;
 }

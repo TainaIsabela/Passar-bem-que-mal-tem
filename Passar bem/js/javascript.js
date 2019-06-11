@@ -1,6 +1,10 @@
+var vis=0, aud=0, sin=0;
+
 function Teste()
 {
-	var vis=0, aud=0, sin=0;
+     
+
+	but = document.getElementById("but");
 	radio = document.getElementById("1");
 	radio2 = document.getElementById("2");
 	radio3 = document.getElementById("3");
@@ -63,6 +67,9 @@ function Teste()
 	/*Aud*/
 	if (aud>vis && aud==sin){
 		alert('Parabéns, você tem as inteligências auditiva e sinestésica na mesma intensidade');
+		if (document.getElementById("res").style.display == 'none'){
+			document.getElementById("res").style.display = 'block';
+		}
 	} else if (aud>sin && aud== vis){
 		alert('Parabéns, você tem as inteligências auditiva e visual na mesma intensidade');
 	} else if (aud>sin && aud>vis){
@@ -79,5 +86,7 @@ function Teste()
 	
 	alert('Vis: '+vis+'; Aud: '+aud+'; Sin: '+sin);
 
+   
+    
 };
 

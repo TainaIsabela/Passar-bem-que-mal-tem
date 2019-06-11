@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<title>Teste</title>
   <script type="text/javascript" src="js/javascript.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css?version=14">
 </head>
 <body>
 
@@ -33,7 +33,7 @@
   <div class="quiz">
 
     <div class="titquiz">
-       Inteligência:<br> auditiva, sinestésica ou visual?
+       Inteligência auditiva, sinestésica ou visual?
     </div>
     
 
@@ -109,11 +109,15 @@
    <label for="14">&#160Sim</label><br><br>  
    <input type="radio" name="six" value="0" id="15">
    <label for="15">&#160Não</label><br><br>
-
+  
       <div class="botquiz" id="buttonDiv" id="teste">
-      <input type="submit" class="botquiz2" onclick="Teste();"/>
+      <input type="button" id="but" value="ENVIAR" class="botquiz2" onclick="Teste();"/>
       </div>
+
     </form>
+    <div id="res" class="res">
+      Resultado
+    </div>
      <br>
      <br>
   </div>
