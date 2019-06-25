@@ -1,8 +1,101 @@
-var vis=0, aud=0, sin=0;
+var vis=0, aud=0, sin=0, cont=0, prod=0;
 
+function InicioTeste(){
+
+	var one = document.getElementsByName("one");
+	for (var i = 0; i < one.length; i++) {
+		if(one[i].checked){
+			one[i].checked = false;
+		}
+	}
+
+
+	var two = document.getElementsByName("two");
+	for (var i = 0; i < two.length; i++) {
+		if(two[i].checked){
+			two[i].checked = false;
+		}
+	}
+
+	var three = document.getElementsByName("three");
+	for (var i = 0; i < three.length; i++) {
+		if(three[i].checked){
+			three[i].checked = false;
+		}
+	}
+
+
+	var four = document.getElementsByName("four");
+	for (var i = 0; i < four.length; i++) {
+		if(four[i].checked){
+			four[i].checked = false;
+		}
+	}
+
+	var five = document.getElementsByName("five");
+	for (var i = 0; i < five.length; i++) {
+		if(five[i].checked){
+			five[i].checked = false;
+		}
+	}
+	
+	var six = document.getElementsByName("six");
+	for (var i = 0; i < six.length; i++) {
+		if(six[i].checked){
+			six[i].checked = false;
+		}
+	}
+	
+}
 function Teste()
 {
-     
+	prod = 0;
+	var one = document.getElementsByName("one");
+	for (var i = 0; i < one.length; i++) {
+		if(one[i].checked){
+			prod++;
+		}
+	}
+
+
+	var two = document.getElementsByName("two");
+	for (var i = 0; i < two.length; i++) {
+		if(two[i].checked){
+			prod++;
+		}
+	}
+
+	var three = document.getElementsByName("three");
+	for (var i = 0; i < three.length; i++) {
+		if(three[i].checked){
+			prod++;
+		}
+	}
+
+
+	var four = document.getElementsByName("four");
+	for (var i = 0; i < four.length; i++) {
+		if(four[i].checked){
+			prod++;
+		}
+	}
+
+	var five = document.getElementsByName("five");
+	for (var i = 0; i < five.length; i++) {
+		if(five[i].checked){
+			prod++;
+		}
+	}
+	
+	var six = document.getElementsByName("six");
+	for (var i = 0; i < six.length; i++) {
+		if(six[i].checked){
+			prod++;
+		}
+	}
+
+
+	if (prod == 6) {
 
 	but = document.getElementById("but");
 	radio = document.getElementById("1");
@@ -59,34 +152,30 @@ function Teste()
 	if (radio14.checked == true){
 		aud = aud + 1;
 	}
-    
-  
-  
-
-	/*Comparações*/
-	/*Aud*/
 	if (aud>vis && aud==sin){
-		alert('Parabéns, você tem as inteligências auditiva e sinestésica na mesma intensidade');
-		if (document.getElementById("res").style.display == 'none'){
-			document.getElementById("res").style.display = 'block';
+			location.href = "teste/audcin.html"
+		} else if (aud>sin && aud== vis){
+			location.href = "teste/audcin.html"
+		} else if (aud>sin && aud>vis){
+			location.href = "teste/aud.html"
+		}/*Vis*/else if (vis>aud && vis==sin){
+			location.href = "teste/cinvis.html"
+		}else if (vis>sin && vis>aud){
+			location.href = "teste/vis.html"
+		}/*Sinestésico*/else if (sin>aud && sin>vis){
+			location.href = "teste/cin.html"
+		}/*Todos iguais*/ else if (aud == vis == sin){
+			location.href = "teste/visaudcin.html"
 		}
-	} else if (aud>sin && aud== vis){
-		alert('Parabéns, você tem as inteligências auditiva e visual na mesma intensidade');
-	} else if (aud>sin && aud>vis){
-		alert('Parabéns, você é auditivo');
-	}/*Vis*/else if (vis>aud && vis==sin){
-		alert('Parabéns, você tem as inteligências visual e sinestésica na mesma intensidade');
-	}else if (vis>sin && vis>aud){
-		alert('Parabéns, você é visual');
-	}/*Sinestésico*/else if (sin>aud && sin>vis){
-		alert('Parabéns, você é sinestésico');
-	}/*Todos iguais*/ else if (aud == vis == sin){
-		alert('Parabéns, você tem todas as inteligências na mesma intensidade');
-	}
 	
-	alert('Vis: '+vis+'; Aud: '+aud+'; Sin: '+sin);
-
-   
-    
+	InicioTeste();
+} else {
+  Swal.fire({
+  type: 'error',
+  title: 'Oops...',
+  text: 'Algumas questões estão sem resposta!',
+})
+}
 };
+
 

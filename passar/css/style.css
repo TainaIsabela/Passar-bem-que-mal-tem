@@ -230,7 +230,7 @@ header{
     padding-top: 3%;
     font-size: 20px;
     text-align:justify; 
-    margin-top: 35%;
+    margin-top: 38%;
     margin-left: 10%;
     color:white;
     font-family: cursive;
@@ -289,11 +289,6 @@ header{
     margin-top: 5%;
     margin-left: 50%
   }
-
-.res{
-    margin-top: 2%;
-    display: none;
-}
 
 .labelquiz {
 
@@ -354,6 +349,7 @@ header{
         padding-top: 2%;
         padding-bottom: 2%;
   }
+
 
   .botquiz2:focus{
 outline: thin dotted;
