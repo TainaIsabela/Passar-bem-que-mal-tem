@@ -284,7 +284,17 @@ header{
   color:  #B38EFF;
   margin-bottom: 10%;
 }
-
+.divimgquiz{
+    align-content: center;
+    align-self: center;
+}
+.imgquiz{
+    margin-left: 15%;
+    width: 60%;
+}
+.sizequiztit{
+    font-size: 180%;
+}
 .botquiz {
     margin-top: 5%;
     margin-left: 50%

@@ -1031,8 +1031,8 @@ body.swal2-no-backdrop .swal2-shown.swal2-bottom-end, body.swal2-no-backdrop .sw
 .swal2-input.swal2-inputerror,
 .swal2-file.swal2-inputerror,
 .swal2-textarea.swal2-inputerror {
-  border-color: #f27474 !important;
-  box-shadow: 0 0 2px #f27474 !important;
+  border-color: #B38EFF !important;
+  box-shadow: 0 0 2px #B38EFF !important;
 }
 .swal2-input:focus,
 .swal2-file:focus,
@@ -1205,7 +1205,7 @@ body.swal2-no-backdrop .swal2-shown.swal2-bottom-end, body.swal2-no-backdrop .sw
   font-size: 3.75em;
 }
 .swal2-icon.swal2-error {
-  border-color: #f27474;
+  border-color: #B38EFF;
 }
 .swal2-icon.swal2-error .swal2-x-mark {
   position: relative;
@@ -1218,7 +1218,7 @@ body.swal2-no-backdrop .swal2-shown.swal2-bottom-end, body.swal2-no-backdrop .sw
   width: 2.9375em;
   height: 0.3125em;
   border-radius: 0.125em;
-  background-color: #f27474;
+  background-color: #B38EFF;
 }
 .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left] {
   left: 1.0625em;
