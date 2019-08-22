@@ -5,6 +5,8 @@
 	<meta charset="utf-8">
 	<title>Teste</title>
   <script type="text/javascript" src="js/javascript.js"></script>
+  <script type="text/javascript" src="js/carrosel.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css?version=14">
 <script src="sweetalert2/dist/sweetalert2.min.js"></script>
 <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
@@ -34,94 +36,137 @@
                 <img class="banner--img" src="img/Passar%20Bem.png">
             </div>
         </header>
-  <div class="quiz">
-
-    <div class="apre">
-       <h2 class="sizequiztit">Inteligência auditiva, cinestésica ou visual?</h2>
-    </div>
-    
-    <img src="img/teste/intelig.jpg" class="imgquiz">
-  
+  <div class="quiz"> 
      <form id="form1">
-     <div class="exemplo1 textoquiz1"> 
-     <p>1. O que é melhor para você enquanto assiste vídeo aulas?</p>
-     <br>
-     
-     <input type="radio" name="one" value="0" id="1">
-     <label for="1">&#160Olhar bem para quem está ensinando ou para os recursos visuais do vídeo</label><br><br>  
-     <input type="radio" name="one" value="0" id="2">
-     <label for="2">&#160Escrever o que está sendo dito e fazer mais exercícios ao fim do vídeo</label><br><br>
-     <input type="radio" name="one" value="0" id="3">
-     <label for="3">&#160Fechar os olhos e prestar atenção ao que está sendo dito no vídeo</label>
-
+      <div class="slideshow-container">
+     <div class="mySlides fade">
+     <p class="textoquiz1">1. O que é melhor para você enquanto assiste vídeo aulas?</p>
+     <label for="1" class="container top">&#160Olhar bem para quem está ensinando ou para os recursos visuais do vídeo
+     <input type="radio" name="one" value="0" id="1" class="top">
+     <span class="checkmark"></span>
+   </label>
+      
+     <label for="2" class="container top2">&#160Escrever o que está sendo dito e fazer mais exercícios ao fim do vídeo
+     <input type="radio" name="one" value="0" id="2" class="top2">
+      <span class="checkmark"></span>
+   </label>
+     <label for="3" class="container top2">&#160Fechar os olhos e prestar atenção ao que está sendo dito no vídeo
+     <input type="radio" name="one" value="0" id="3" class="top2">
+     <span class="checkmark"></span>
+   </label><br><br>
       </div>
-      <div class="exemplo1 textoquiz2">    
-     <p>2. Você concorda com a frase "Eu preciso fazer pausas frequentes enquanto estudo"?</p>
+
+      <div class="mySlides fade">
+     <p class="textoquiz2">2. Você concorda com a frase "Eu preciso fazer pausas frequentes enquanto estudo"?</p>
      <br>
+     <label for="4" class="container top">&#160Sim
+      <input type="radio" name="two" value="0" id="4" class="top">
+      <span class="checkmark"></span>
+     </label>  
      
-     <input type="radio" name="two" value="0" id="4">
-     <label for="4">&#160Sim</label><br><br>  
-     <input type="radio" name="two" value="0" id="5">
-     <label for="5">&#160Não</label><br><br>
-      
+     <label for="5" class="container top2">&#160Não
+      <input type="radio" name="two" value="0" id="5" class="top2">
+      <span class="checkmark"></span>
+     </label><br><br>
     </div>
       
-    </div>
-      <div class="exemplo1 textoquiz2">    
-     <p>3. Como são suas anotações no caderno?</p>
-     <br>
+      <div class="mySlides fade">
+     <p class="textoquiz2 left">3. Como são suas anotações no caderno?</p>
+     <br>  
+     <label for="6"  class="container top">&#160Cheias de desenhos ao redor e flechinhas apontando para informações
+      <input type="radio" name="three" value="0" id="6" class="top">
+      <span class="checkmark"></span>
+     </label> 
      
-     <input type="radio" name="three" value="0" id="6">
-     <label for="6">&#160Cheias de desenhos ao redor e flechinhas apontando para informações</label><br><br>  
-     <input type="radio" name="three" value="0" id="7">
-     <label for="7">&#160Desprovidas de beleza e com muitas rasuras</label><br><br>
-     <input type="radio" name="three" value="0" id="8">
-     <label for="8">&#160Nenhuma das opções acima</label>
+     <label for="7" class="container top2">&#160Desprovidas de beleza e com muitas rasuras
+      <input type="radio" name="three" value="0" id="7" class="top2">
+         <span class="checkmark"></span>
+     </label>
+    
+     <label for="8" class="container top2">&#160Nenhuma das opções acima
+       <input type="radio" name="three" value="0" id="8" class="top2">
+        <span class="checkmark"></span>
+     </label><br><br>
       
     </div>
    
-    <div class="exemplo1 textoquiz2">    
-     <p>4. Você concorda com a frase "Eu estudo melhor no silêncio"?</p>
+    <div class="mySlides fade">    
+     <p class="textoquiz2">4. Você concorda com a frase "Eu estudo melhor no silêncio"?</p>
+     <br>
+     <label for="9" class="container top">&#160Sim 
+      <input type="radio" name="four" value="0" id="9" class="container top">
+        <span class="checkmark"></span>
+    </label> 
+    
+     <label for="10" class="container top2">&#160Não
+       <input type="radio" name="four" value="0" id="10" class="top2">
+         <span class="checkmark"></span>
+     </label><br><br>
+   </div>
+
+  <div class="mySlides fade">
+  
+     <p class="textoquiz2">5. De quais coisas você se lembra melhor?</p>
      <br>
      
-     <input type="radio" name="four" value="0" id="9">
-     <label for="9">&#160Sim</label><br><br>  
-     <input type="radio" name="four" value="0" id="10">
-     <label for="10">&#160Não</label><br><br>
-      
-    </div>
-   
-  <div class="exemplo1 textoquiz2">    
-     <p>5. De quais coisas você se lembra melhor?</p>
-     <br>
+    
+     <label for="11" class="container top">&#160Das que eu anoto
+       <input type="radio" name="five" value="0" id="11" class="top">
+        <span class="checkmark"></span>
+     </label>  
+    
+     <label for="12" class="container top2">&#160Das que eu escuto
+       <input type="radio" name="five" value="0" id="12" class="top2">
+       <span class="checkmark"></span>
+     </label>
      
-     <input type="radio" name="five" value="0" id="11">
-     <label for="11">&#160Das que eu anoto</label><br><br>  
-     <input type="radio" name="five" value="0" id="12">
-     <label for="12">&#160Das que eu escuto</label><br><br>
-     <input type="radio" name="five" value="0" id="13">
-     <label for="13">&#160Das que eu vejo alguém fazer</label>
+     <label for="13" class="container top2">&#160Das que eu vejo alguém fazer
+      <input type="radio" name="five" value="0" id="13" class="top2">
+       <span class="checkmark"></span>
+     </label><br><br>
       
     </div>
 
 
-  <div class="exemplo1 textoquiz2">    
-   <p>6. Você concorda com a frase "Quando escrevo, uso muita força"?</p>
+  <div class="mySlides fade">   
+   <p class="textoquiz2">6. Você concorda com a frase "Quando escrevo, uso muita força"?</p>
    <br>
    
-   <input type="radio" name="six" value="0" id="14">
-   <label for="14">&#160Sim</label><br><br>  
-   <input type="radio" name="six" value="0" id="15">
-   <label for="15">&#160Não</label><br><br>
   
+   <label for="14" class="container top">&#160Sim
+     <input type="radio" name="six" value="0" id="14" class="top">
+     <span class="checkmark"></span>
+   </label>  
+  
+   <label for="15" class="container top2">&#160Não
+     <input type="radio" name="six" value="0" id="15" class="to">
+     <span class="checkmark"></span>
+   </label><br><br>
+ </div>
+
+       <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+   <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span>
+   <span class="dot" onclick="currentSlide(6)"></span>   
+</div>
       <div class="botquiz" id="buttonDiv" id="teste">
       <input type="button" id="but" value="ENVIAR" class="botquiz2" onclick="Teste();"/>
       </div>
-
     </form>
+    <!-- The dots/circles -->
+
+
      <br>
      <br>
   </div>
     <script type="text/javascript" src="js/javascript.js"></script>
+    <script type="text/javascript" src="js/carrosel.js"></script>
 </body>
 </html>
