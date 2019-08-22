@@ -3,6 +3,13 @@
     padding:0;
     box-sizing: inherit;
 }
+font-family: 'Playfair Display SC', serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Karma', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Noto Serif SC', serif;
+
 @font-face{
   font-family:"Watermelon";
   src:url("fontes/watermelon/Watermelon.ttf") format("truetype");
@@ -28,6 +35,7 @@
 
 .tit--li {
     font-size: 25px;
+    font-family: "Karma";
 }
 
 .menu {
@@ -42,9 +50,11 @@
 .menu--li a {
     text-decoration: none;
     color: white;
+    font-family: "Bad Script";
 }
 header{
     position: relative;
+    
 }
 .banner {
     background-color: #C4A7FF;
@@ -67,55 +77,33 @@ header{
     
 }
 
-.card1-img{
-    background-image: url(../img/biologia.jpg);
-    height: 100%;
-    background-size: cover;
-}
 .card2-img{
     background-image: url(../img/teste2.jpg);
     height: 100%;
     background-size: cover;
 }
-.card3-img{
-    background-image: url(../img/fones.jpg);
-    height: 100%;
-    background-size: cover;
-}
 
-.card-1 {
-    width: 28%;
-    height: 80vh;
-    display: inline;
-    float: left;
-    margin-right: 5%;
-    margin-left: 2%;
 
-}
 .card-2{
-    width: 28%;
+    width: 55%;
+    width: 55%;
     height: 80vh;
     display: inline;
-    float: left;
-    margin-right: 5%;
+    float: right;
+    margin-right: 22%;
     
 }
-.card-3{
-    width: 28%;
-    height: 80vh;
-    display: inline;
-    float: left;
-    margin-right: 2%;
-}
+
 
 .btn1 {
     background-color: rgba(179, 142, 255, .5);
     color: white;
-    margin-left: 33%;
+    margin-left: 38%;
     transform: translate(-33%, 0);
     padding: 5% 10%;
     text-decoration: none;
     border-radius: 5px;
+    font-family: "Marcellus";
 }
 .card-btn{
     margin-top: -15%;
@@ -132,12 +120,12 @@ header{
 .font-apre1{
   padding-top: 3%;
   font-size: 50px;
-  font-family:monospace;
+  font-family:"Karma";
   
 }
 .font-apre2{
   font-size: 20px;
-  font-family:sans-serif;
+  font-family:"Karma";
 }
 .container{
     margin-left: 10%;
@@ -149,48 +137,98 @@ header{
   color: #B38EFF;
   padding-top: 3%;
   font-size: 250%;
-  font-family:monospace;
+  font-family:"Karma";
 }
 
 
 .dica1{
-    margin-left: 10%;
+    margin-left: -5%;
     margin-top: 10%;
     background-color: rgba(179, 142, 255, .7);
-    width: 60%;
+    width: 40%;
     height: 40vh;  
     margin-bottom: 5%;
     position: absolute;
     border-radius: 3px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    float: left;
 }
 .dica2{
-    margin-left: 10%;
+    margin-left: -5%;
     margin-top: 40%;
    background-color: rgba(179, 142, 255, .7);
-    width: 60%;
+    width: 40%;
     height: 40vh;   
     margin-bottom: 5%;
     position: absolute;
     border-radius: 3px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    float: left;
 }
 .dica3{
-    margin-left: 10%;
+    margin-left: -5%;
     margin-top: 70%;
     background-color: rgba(179, 142, 255, .7);
-    width: 60%;
+    width: 40%;
     height: 40vh;   
     margin-bottom: 5%;
     position: absolute;
     border-radius: 3px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    float: left;
+}
+.dica1-dir{
+    margin-left: 45%;
+    margin-top: 10%;
+    background-color: rgba(179, 142, 255, .7);
+    width: 40%;
+    height: 40vh;  
+    margin-bottom: 5%;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    float: right;
+}
+.dica2-dir{
+    margin-left: 45%;
+    margin-top: 40%;
+   background-color: rgba(179, 142, 255, .7);
+    width: 40%;
+    height: 40vh;   
+    margin-bottom: 5%;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    float: right;
+}
+.dica3-dir{
+    margin-left: 45%;
+    margin-top: 70%;
+    background-color: rgba(179, 142, 255, .7);
+    width: 40%;
+    height: 40vh;   
+    margin-bottom: 5%;
+    position: absolute;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    float: right;
 }
 
 .tex-dicas{
     color: aliceblue;
-    margin-top: -25%;
-    margin-left: 45%;
+    margin-top: -47%;
+    margin-left: 43%;
+    padding-right: 2%;
+    font-family: "Marcellus";
+    text-align: justify;
+}
+.tex-sb{
+ color: "dimgrey";
+  float: left;
+  font-family: "Bad Script";
+  font-size: 20px;
+  text-align:justify; 
+  margin-top: 50px;
 }
 .dica1-img{
     width: 40%;
@@ -201,9 +239,25 @@ header{
    transform: scale(1.1);
    transition: all .4s ease;
 }
-
-.resto{
+.enum {
+    padding-left: 28%;
     margin-top: 200vh;
+    list-style: none;
+}
+.enum-item a{
+    
+    font-size: 4vh;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: "Marcellus";
+}
+.enum-item{
+  display:inline;
+}
+.resto{
+    margin-top: 20vh;
     height: 100px;
     width: 100%;
 }
@@ -213,7 +267,7 @@ header{
     margin-top: 10%;
     margin-left: 10%;
     color:white;
-    font-family:monospace;
+    font-family:"Marcellus";
     position: absolute;
 }
 .tex-ob{
@@ -223,7 +277,7 @@ header{
     margin-top: 15%;
     margin-left: 10%;
     color:white;
-    font-family: cursive;
+    font-family: "Marcellus";
     position: absolute;
 }
 .tex-rod{
@@ -233,7 +287,7 @@ header{
     margin-top: 38%;
     margin-left: 10%;
     color:white;
-    font-family: cursive;
+    font-family: "Bad Script";
     position: absolute;
 }
 .rod-img{
@@ -242,7 +296,6 @@ header{
     height: 90vh;   
     position: relative;
 }
-
 /*Quiz*/
 /*.exemplo1 input[type=radio]{
     display:none;
@@ -373,7 +426,7 @@ header{
 }
 .botquiz {
     margin-top: 5%;
-    margin-left: 46.5%
+    margin-left: 46.1%
   }
 
 .labelquiz {
@@ -451,6 +504,7 @@ outline: thin dotted;
 .quiz{
   margin-top: 107vh;
 }
+
 /*Carrossel*/
 * {box-sizing:border-box}
 
@@ -491,6 +545,7 @@ outline: thin dotted;
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: white;
 }
 
 /* Caption text */
@@ -546,3 +601,5 @@ outline: thin dotted;
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
