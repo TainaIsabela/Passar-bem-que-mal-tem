@@ -1,0 +1,305 @@
+/*Quiz*/
+/*.exemplo1 input[type=radio]{
+    display:none;
+}
+ 
+.exemplo1 input[type=radio] + label{
+    display:inline-block;
+    height:20px;
+    padding:0 0 0 25px;
+    margin:0 10px 0 0;
+    background-image:url(../img/ico-master3.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    font-size: large;
+}
+ 
+.exemplo1 input[type=radio]:checked + label{
+    background-position:0 -30px;
+    font-size: large;
+}*/
+.top{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.top2{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.textq{
+    font-size: 22px;
+}
+
+.textoquiz1 {
+  font-size: 22px;
+  margin-left: 15%;
+}
+
+.textoquiz2 {
+  font-size: 22px;
+  margin-left: 15%;
+  margin-top: 7%;
+  margin-right: 8%
+}
+
+.titquiz {
+  font-family: "Watermelon";
+  margin-top: 10%;
+  font-size: 45px;
+  text-align: center;
+  color:  #B38EFF;
+  margin-bottom: 10%;
+}
+.divimgquiz{
+    align-content: center;
+    align-self: center;
+}
+.imgquiz{
+    margin-left: 15%;
+    width: 60%;
+}
+.sizequiztit{
+    font-size: 180%;
+}
+.botquiz {
+    margin-top: 5%;
+    margin-left: 46.1%
+  }
+
+.labelquiz {
+
+}
+.botquiz2{
+        background:white;
+        color:black;
+        border-width: 1%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 90%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+  }
+  .botquiz2:hover{
+        border-width: 1%;
+        background: white;
+        color:black;
+        border-top-color: black;
+        border-right-color: black;
+        border-left-color: black;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 90%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+  }
+  .botquiz2:active{
+        border-width: 1%;
+        background: black;
+        color: white;
+        border-top-color: black;
+        border-right-color: black;
+        border-left-color: black;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%; 
+  }
+  .botquiz2:visited{
+       background:white;
+        color:black;
+        border-width: 1%;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-left-color: transparent;
+        border-bottom-color: black;
+        width: 15%;
+        text-align: center;
+        font-size: 80%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+  }
+
+
+  .botquiz2:focus{
+outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+.buttonDiv:focus {
+ outline: thin dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+    outline-offset: 0px;
+}
+
+.quiz{
+  margin-top: 107vh;
+}
+
+/*Carrossel*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
