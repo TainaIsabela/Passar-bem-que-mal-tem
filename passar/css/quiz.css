@@ -18,6 +18,18 @@
     background-position:0 -30px;
     font-size: large;
 }*/
+font-family: 'Playfair Display SC', serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Karma', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Noto Serif SC', serif;
+.menu--li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Bad Script";
+}
+
 .top{
     margin-top: 5%;
     margin-left: 15%;
