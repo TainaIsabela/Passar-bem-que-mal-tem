@@ -1,0 +1,57 @@
+font-family: 'Playfair Display SC', serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Karma', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Noto Serif SC', serif;
+
+form{
+	
+
+}
+label {
+	font-size: 2.5vh;
+	font-family: "Fredericka the Great";
+	margin-left: 3vh;
+	margin-right: 3vh;
+
+}
+textarea{
+	margin-top: 5vh;
+	font-size: 5vh;
+	font-family: "Fredericka the Great";
+	margin-left: 3vh;
+	margin-right: 3vh;
+}
+
+.text{
+	margin-top: 5vh;
+	font-size: 5vh;
+	font-family: "Fredericka the Great";
+	margin-left: 3vh;
+	margin-right: 3vh;
+}
+
+
+.formu{
+	margin-top: 85vh;
+	margin-left: 35vh;
+	width: 160vh;
+	height: 80vh;
+	background-color: #B38EFF;
+	margin-bottom:  30vh;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+
+}
+.con-tit{
+	padding-top: 10vh;
+	font-family: "Bad Script";
+	font-size:  5vh;	
+	text-align: center;
+	color: white;
+}
+.img-contato{
+	width: 75vh;
+	height: 80vh;
+	float: left;
+}
