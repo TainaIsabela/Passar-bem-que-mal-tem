@@ -121,11 +121,9 @@ font-family: 'Noto Serif SC', serif;
 
 .titquiz {
   font-family: "Watermelon";
-  margin-top: 10%;
   font-size: 45px;
   text-align: center;
   color:  #B38EFF;
-  margin-bottom: 10%;
 }
 .divimgquiz{
     align-content: center;
@@ -142,7 +140,15 @@ font-family: 'Noto Serif SC', serif;
     margin-top: 5%;
     margin-left: 46.1%
   }
-
+.quiztit{
+  margin-top: 50%;
+  text-align: center;
+  color:  #B38EFF;
+  margin-bottom: 
+  line-height: 170%;
+  font-size: 250%;
+  font-family:"Karma";
+}
 .labelquiz {
 
 }
@@ -216,7 +222,7 @@ outline: thin dotted;
 }
 
 .quiz{
-  margin-top: 107vh;
+  margin-top: 6%;
 }
 
 /*Carrossel*/

@@ -17,6 +17,7 @@ font-family: 'Noto Serif SC', serif;
 .nave {
     background: #B38EFF;
     height: 77px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .nav--div{
@@ -147,7 +148,7 @@ display: inline-grid;
 .dica1{
     margin-left: 5%;
     margin-top: 10vh;
-    background-color: rgba(179, 142, 255, .7);
+    background-color: white;
     width: 65vh;
     height:  60vh;  
     margin-bottom: 5%;
@@ -159,7 +160,7 @@ display: inline-grid;
 .dica2{
     margin-left:  5%;
     margin-top: 80vh;
-   background-color: rgba(179, 142, 255, .7);
+   background-color: white;
     width: 65vh;
     height: 60vh;   
     margin-bottom: 5%;
@@ -171,7 +172,7 @@ display: inline-grid;
 .dica3{
     margin-left:  5%;
     margin-top: 150vh;
-    background-color: rgba(179, 142, 255, .7);
+    background-color: white;
     width: 65vh;
     height:  60vh;   
     margin-bottom: 5%;
@@ -183,7 +184,7 @@ display: inline-grid;
 .dica1-dir{
     margin-left: 50%;
     margin-top: 10vh;
-    background-color: rgba(179, 142, 255, .7);
+    background-color: white;
     width: 65vh;
     height:  60vh;  
     margin-bottom: 5%;
@@ -195,7 +196,7 @@ display: inline-grid;
 .dica2-dir{
     margin-left: 50%;
     margin-top: 80vh;
-   background-color: rgba(179, 142, 255, .7);
+   background-color: white;
     width: 65vh;
     height:  60vh;   
     margin-bottom: 5%;
@@ -207,7 +208,7 @@ display: inline-grid;
 .dica3-dir{
     margin-left:  50%;
     margin-top: 150vh;
-    background-color: rgba(179, 142, 255, .7);
+    background-color: white;
     width: 65vh;
     height:  60vh;   
     margin-bottom: 5%;
@@ -218,7 +219,7 @@ display: inline-grid;
 }
 
 .tex-dicas{
-    color: aliceblue;
+    color: #B38EFF;
     margin-top: 0%;
     margin-left: 9%;
     padding-right: 5%;
@@ -243,13 +244,16 @@ display: inline-grid;
    transform: scale(1.1);
    transition: all .4s ease;
 }
+.rox{
+ background-color: #B38EFF;
+}
 .enum {
     padding-left: 28%;
     margin-top: 230vh;
+    padding-bottom: 10%;
     list-style: none;
 }
 .enum-item a{
-    
     font-size: 4vh;
     margin-right: 5%;
     margin-left: 5%;
@@ -266,7 +270,6 @@ display: inline-grid;
   border-radius: 3px (0,0,0, 0.8);
 }
 .resto{
-    margin-top: 20vh;
     height: 100px;
     width: 100%;
 }
@@ -299,6 +302,14 @@ display: inline-grid;
     font-family: "Bad Script";
     position: absolute;
 }
+/*font-con*/
+.branco{
+      text-align: center;
+  color: white;
+  padding-top: 3%;
+  font-size: 250%;
+  font-family:"Karma";
+}
 .rod-img{
     z-index: -1;
     width: 100%;
@@ -306,13 +317,18 @@ display: inline-grid;
     position: relative;
 }
 
+.black{
+    background-color:  #B38EFF;
+    width: 100%;
+}
 
 /*Sticky Nav*/
 #navbar {
   overflow: hidden;
   padding: 25px;
    background: #B38EFF;
-    height: 77px;
+   z-index: 1;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #navbar a{
