@@ -32,11 +32,11 @@ font-family: 'Noto Serif SC', serif;
 
 .top{
     margin-top: 5%;
-    margin-left: 15%;
+    margin-left: 13%;
 }
 .top2{
     margin-top: 2%;
-    margin-left: 15%;
+    margin-left: 13%;
 }
 .container {
   display: block;
@@ -78,7 +78,7 @@ font-family: 'Noto Serif SC', serif;
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #2196F3;
+  background-color: #B38EFF;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
@@ -109,13 +109,12 @@ font-family: 'Noto Serif SC', serif;
 
 .textoquiz1 {
   font-size: 22px;
-  margin-left: 15%;
+  margin-left: 13%;
 }
 
 .textoquiz2 {
   font-size: 22px;
-  margin-left: 15%;
-  margin-top: 7%;
+  margin-left: 13%;
   margin-right: 8%
 }
 
@@ -138,7 +137,8 @@ font-family: 'Noto Serif SC', serif;
 }
 .botquiz {
     margin-top: 5%;
-    margin-left: 46.1%
+    width: 100%;
+    text-align: center;
   }
 .quiztit{
   margin-top: 50%;
@@ -153,6 +153,7 @@ font-family: 'Noto Serif SC', serif;
 
 }
 .botquiz2{
+          margin-top: -3%;
         background:white;
         color:black;
         border-width: 1%;
@@ -160,11 +161,11 @@ font-family: 'Noto Serif SC', serif;
         border-right-color: transparent;
         border-left-color: transparent;
         border-bottom-color: black;
-        width: 15%;
+        width: 8.5%;
         text-align: center;
         font-size: 90%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
   }
   .botquiz2:hover{
         border-width: 1%;
@@ -174,11 +175,11 @@ font-family: 'Noto Serif SC', serif;
         border-right-color: black;
         border-left-color: black;
         border-bottom-color: black;
-        width: 15%;
+        width: 8.5%;
         text-align: center;
         font-size: 90%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
   }
   .botquiz2:active{
         border-width: 1%;
@@ -188,11 +189,11 @@ font-family: 'Noto Serif SC', serif;
         border-right-color: black;
         border-left-color: black;
         border-bottom-color: black;
-        width: 15%;
+        width: 8.5%;
         text-align: center;
-        font-size: 80%;
-        padding-top: 2%;
-        padding-bottom: 2%; 
+        font-size: 90%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%; 
   }
   .botquiz2:visited{
        background:white;
@@ -202,11 +203,11 @@ font-family: 'Noto Serif SC', serif;
         border-right-color: transparent;
         border-left-color: transparent;
         border-bottom-color: black;
-        width: 15%;
+        width: 10%;
         text-align: center;
-        font-size: 80%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+        font-size: 90%;
+        padding-top: 1%;
+        padding-bottom: 1%;
   }
 
 
