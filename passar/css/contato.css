@@ -9,31 +9,22 @@ form{
 	
 
 }
-label {
-	
 
+.rod{
+    padding-top: 5%;
+    font-size: 20px;
+    text-align:justify; 
+    margin-top: 3%;
+    margin-left: 10%;
+    color:black;
+    font-family: "Bad Script";
+    position: absolute;
 }
-textarea{
-	margin-top: 5vh;
-	font-size: 5vh;
-	font-family: "Fredericka the Great";
-	margin-left: 3vh;
-	margin-right: 3vh;
-}
-
-.text{
-	margin-top: 5vh;
-	font-size: 5vh;
-	font-family: "Fredericka the Great";
-	margin-left: 3vh;
-	margin-right: 3vh;
-}
-
 
 .formu{
 	
 	margin-top: 105vh;
-	margin-left: 23vh;
+	margin-left: 20vh;
 	width: 170vh;
 	height: 100vh;
 	background-color: #B38EFF;
@@ -44,40 +35,38 @@ textarea{
 	padding-top: 10vh;
 	font-family: "Bad Script";
 	font-size:  5vh;	
-	text-align: center;
+	text-align: right;
+    margin-right: 25vh;
 	color: white;
 }
 .img-contato{
-	width: 75vh;
-	height: 80vh;
+	width: 86vh;
+	height: 100vh;
 	float: left;
+    margin-right: 8vh;
 }
 
-.container {
- 
-  padding-top: -30vh;
-  width: 50%;
+.cont{
+  
+  float: left;
+  width: 40%;
   margin: 0 auto;
 
 }
 
 .form-contact {
-
-  width: 40%;
+  
+  width: 37%;
   font-family: "Arial", Times, serif;
-  float: right;
 }
 
 .form-contact-input {
-  
-  font-size: 2.5vh;
-  margin-left: 3vh;
-	
+  font-size: 2.5vh;	
   width: 100%;
   color: #292929;
   font-size: 18px;
   background-color: #E9E9E9;
-  border: 1px solid #E9E9E9;
+  border: 2px solid #E9E9E9;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
@@ -90,8 +79,7 @@ textarea{
 
 .form-contact-textarea {
   font-size: 2.5vh;
-  margin-left: 3vh;
-
+  margin-left: auto;
   width: 100%;
   color: #292929;
   font-size: 18px;
@@ -113,8 +101,6 @@ textarea{
 
 .form-contact-button {
   font-size: 2.5vh;
-  margin-left: 3vh;
- 
   width: 100%;
   font-size: 18px;
   border-radius: 4px;
@@ -123,7 +109,7 @@ textarea{
   opacity: .8;
   margin-bottom: 20px;
   cursor: pointer;
-  background: #B22222;
+  background: #C4A7FF;
   display: block;
   border: none;
   border-bottom: 1px solid #500707;
