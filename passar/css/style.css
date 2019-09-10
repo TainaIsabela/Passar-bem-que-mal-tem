@@ -22,6 +22,7 @@ font-family: 'Noto Serif SC', serif;
 
 .nav--div{
     padding: 25px;
+    z-index: 1;
 }
 
 .tit {
@@ -71,6 +72,10 @@ header{
     width: 100%;
     margin-top: 30vh;
 
+}
+
+.down{
+  z-index: 999;
 }
 
 .cards {

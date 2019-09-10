@@ -32,7 +32,8 @@ form{
 
 }
 .con-tit{
-	padding-top: 10vh;
+	padding-top: 7vh;
+  padding-bottom: 3vh;
 	font-family: "Karma";
 	font-size:  5vh;	
 	text-align: right;
