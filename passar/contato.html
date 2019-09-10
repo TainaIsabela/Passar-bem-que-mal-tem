@@ -35,17 +35,15 @@
         <img class="img-contato" src="img/contato.jpg">
             <form>
                 <h1 class="con-tit">Fique em contato</h1>
-                <hr class="hr-contato">
-                <label class="Email">Email:</label>
-                <input type="text" name="Email">
-                <label class="Nome">Nome:</label>
-                <input type="text" name="Nome">
-                <br>
-                <label class="Assunto">Assunto:</label>
-                <input type="text" name="Assunto">
-                <br>
-                <br class="text">Mensagem:<br>
-                <textarea name="Mensagem" rows="4" cols="4" >
+                <div class="container">
+                    <form action="#" class="form-contact" method="post" tabindex="1">
+                        <input type="text" class="form-contact-input" name="nome" placeholder="Nome" required />
+                        <input type="email" class="form-contact-input" name="email" placeholder="Email" required />
+                        <input type="tel" class="form-contact-input" name="tel" placeholder="Telefone" />
+                        <textarea class="form-contact-textarea" name="conteudo" placeholder="Deixe uma mensagem" required></textarea>
+                        <button type="submit" class="form-contact-button">Enviar</button>
+                    </form>
+                </div> 
                     
                 </textarea>
                
