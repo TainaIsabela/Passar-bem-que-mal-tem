@@ -33,7 +33,7 @@ form{
 }
 .con-tit{
 	padding-top: 10vh;
-	font-family: "Bad Script";
+	font-family: "Karma";
 	font-size:  5vh;	
 	text-align: right;
     margin-right: 25vh;
@@ -109,7 +109,7 @@ form{
   opacity: .8;
   margin-bottom: 20px;
   cursor: pointer;
-  background: #C4A7FF;
+  background: black;
   display: block;
   border: none;
   border-bottom: 1px solid #500707;
