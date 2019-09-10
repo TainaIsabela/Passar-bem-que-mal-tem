@@ -1,16 +1,15 @@
 .txtBusca{
-  float:left;
+  font-family: "Noto Serif SC";
   background-color:transparent;
   padding-left:3%; 
-  font-size:20%;
+  font-size:3.5vh;
   border:none;
   height:100%;
-  width:89%;
+  width:70%;
 }
 .buscar{
   height: 80%;
   width: 9%;
-  padding-top: 3%;
   float: ;
 }
 .btnBusca{
@@ -22,14 +21,15 @@
  
 .divBusca img{
   padding-top: 1.5%;
-  float:left;
+  float: right;
+  padding-right: 1.5%;
 }
  
 .divBusca{
   margin-top: 5%;
-  border:solid 4px rgba(146, 63, 191, 0.8);
+  border:solid 4px rgba(179, 142, 255, 0.8);
   border-radius:10px;
   height:6vh;
   width:55vh;
-  margin-left: 31%;
+  margin-left: 35%;
 }

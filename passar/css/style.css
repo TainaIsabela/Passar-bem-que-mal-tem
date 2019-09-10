@@ -146,7 +146,7 @@ display: inline-grid;
 
 }
 .dica1{
-    margin-left: 5%;
+    margin-left: 2%;
     margin-top: 10vh;
     background-color: white;
     width: 65vh;
@@ -158,7 +158,7 @@ display: inline-grid;
     float: left;
 }
 .dica2{
-    margin-left:  5%;
+    margin-left:  2%;
     margin-top: 80vh;
    background-color: white;
     width: 65vh;
@@ -170,7 +170,7 @@ display: inline-grid;
     float: left;
 }
 .dica3{
-    margin-left:  5%;
+    margin-left:  2%;
     margin-top: 150vh;
     background-color: white;
     width: 65vh;
