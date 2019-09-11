@@ -24,6 +24,11 @@ font-family: 'Karma', serif;
 font-family: 'Marcellus', serif;
 font-family: 'Fredericka the Great', cursive;
 font-family: 'Noto Serif SC', serif;
+
+input:focus {
+    outline:none;
+}
+
 .menu--li a {
     text-decoration: none;
     color: white;
@@ -136,6 +141,7 @@ font-family: 'Noto Serif SC', serif;
     font-size: 180%;
 }
 .botquiz {
+    outline: none;
     margin-top: 5%;
     width: 100%;
     text-align: center;
@@ -212,12 +218,12 @@ font-family: 'Noto Serif SC', serif;
 
 
   .botquiz2:focus{
-outline: thin dotted;
+outline: none;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
 }
 .buttonDiv:focus {
- outline: thin dotted;
+ outline: none;
     outline: 0px auto -webkit-focus-ring-color;
     outline-offset: 0px;
 }

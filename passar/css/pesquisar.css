@@ -10,7 +10,6 @@
 .buscar{
   height: 80%;
   width: 9%;
-  float: ;
 }
 .btnBusca{
   height: 80%;
@@ -24,6 +23,10 @@
   float: right;
   padding-right: 1.5%;
 }
+
+input:focus {
+    outline:none;
+}
  
 .divBusca{
   margin-top: 5%;
@@ -32,4 +35,8 @@
   height:6vh;
   width:55vh;
   margin-left: 35%;
+}
+
+.divBusca:active{
+  text-decoration: none;
 }

@@ -14,6 +14,7 @@ font-family: 'Noto Serif SC', serif;
   font-family:"Watermelon";
   src:url("fontes/watermelon/Watermelon.ttf") format("truetype");
 }
+
 .nave {
     background: #B38EFF;
     height: 77px;
@@ -122,6 +123,26 @@ header{
   height: 30vh;
   width: 60%;
   text-align: center;
+}
+.rod{
+    padding-top: 5%;
+    font-size: 20px;
+    text-align:justify; 
+    margin-top: 3%;
+    margin-left: 10%;
+    color:black;
+    font-family: "Bad Script";
+    position: absolute;
+}
+.roxal{
+color: #B38EFF; 
+}
+.apre2{
+  margin-top: 100vh;
+  margin-left: 20%;
+  height: 30vh;
+  width: 60%;
+  text-align: center; 
 }
 .font-apre1{
   padding-top: 3%;
@@ -275,7 +296,7 @@ display: inline-grid;
   border-radius: 3px (0,0,0, 0.8);
 }
 .resto{
-    height: 100px;
+    height: 100vh;
     width: 100%;
 }
 .tit-ob{
@@ -309,17 +330,17 @@ display: inline-grid;
 }
 /*font-con*/
 .branco{
-      text-align: center;
+  text-align: center;
   color: white;
   padding-top: 3%;
   font-size: 250%;
   font-family:"Karma";
 }
 .rod-img{
-    padding-bottom: -30vh;
-    z-index: -2;
+  margin-bottom: -10%;
+   z-index: -2;
     width: 100%;
-    height: 100vh;   
+    height: 100%;   
     position: relative;
 }
 
