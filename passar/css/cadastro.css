@@ -20,13 +20,15 @@ form{
     font-family: "Bad Script";
     position: absolute;
 }
-
-.formu{
-  
+.cont{
+ padding-right: 30%;
+  padding-left:  30%;
+}
+.formu{  
   margin-top: 105vh;
-  margin-left: 20vh;
-  width: 170vh;
-  height: 100vh;
+  margin-left: 33vh;
+  width: 150vh;
+  height: 85vh;
   background-color: #B38EFF;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 
@@ -36,16 +38,10 @@ form{
   padding-bottom: 3vh;
   font-family: "Karma";
   font-size:  5vh;  
-  text-align: right;
-    margin-right: 25vh;
+  text-align: center;
   color: white;
 }
-.img-contato{
-  width: 86vh;
-  height: 100vh;
-  float: left;
-    margin-right: 8vh;
-}
+
 
 .cont{
   

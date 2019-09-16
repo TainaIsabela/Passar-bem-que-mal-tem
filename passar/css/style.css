@@ -124,16 +124,7 @@ header{
   width: 60%;
   text-align: center;
 }
-.rod{
-    padding-top: 5%;
-    font-size: 20px;
-    text-align:justify; 
-    margin-top: 3%;
-    margin-left: 10%;
-    color:black;
-    font-family: "Bad Script";
-    position: absolute;
-}
+
 .roxal{
 color: #B38EFF; 
 }
@@ -354,7 +345,7 @@ display: inline-grid;
   overflow: hidden;
   padding: 25px;
    background: #B38EFF;
-   z-index: 1;
+   z-index: 1000;
        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
