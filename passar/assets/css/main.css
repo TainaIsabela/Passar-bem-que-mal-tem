@@ -3880,6 +3880,9 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+.img-example{
+	align-items: center;
+}
 /* Footer */
 
 	#footer {
