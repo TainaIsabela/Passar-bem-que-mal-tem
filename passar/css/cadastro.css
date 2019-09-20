@@ -6,8 +6,6 @@ font-family: 'Fredericka the Great', cursive;
 font-family: 'Noto Serif SC', serif;
 
 form{
-  
-
 }
 
 .rod{
@@ -26,9 +24,10 @@ form{
 }
 .formu{  
   margin-top: 105vh;
-  margin-left: 33vh;
-  width: 150vh;
-  height: 85vh;
+  margin-left: 15%;
+  width: 70%;
+  height: 40rem;
+  margin-bottom: 10%;
   background-color: #B38EFF;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
 
@@ -50,7 +49,16 @@ form{
   margin: 0 auto;
 
 }
-
+.tex-rode{
+    padding-top: 5%;
+    font-size: 20px;
+    text-align:justify; 
+    margin-top: 58%;
+    margin-left: -10%;
+    color:black;
+    font-family: "Bad Script";
+    position: absolute;
+}
 .form-contact {
   
   width: 37%;
