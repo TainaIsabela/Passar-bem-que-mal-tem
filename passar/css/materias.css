@@ -1,0 +1,17 @@
+body{
+background: white;
+}
+.img-mat1{
+	margin-left: 13%
+}
+.img-mat2{
+margin-left: 27%;
+}
+.tex-rode{
+	font-size: 15px;
+    text-align:justify; 
+    margin-left: 5%;
+    color:black;
+    font-family: "Bad Script";
+    position: absolute;
+}
