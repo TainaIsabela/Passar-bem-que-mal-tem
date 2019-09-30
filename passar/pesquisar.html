@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="css/pesquisar.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Bad+Script|Fredericka+the+Great|Karma|Marcellus|Noto+Serif+SC|Playfair+Display+SC&display=swap" rel="stylesheet">
-        <title>Passar Bem</title>      
+        <title>Pesquisar</title>      
     </head>
     <body>
         <header>
@@ -33,10 +33,10 @@
       <container>
         <div class="container">
             <h3 class="font-con">Encontre o que você precisa agora</h3>
-            <div class="divBusca">
-              <img class="buscar" src="img/buscar.png" alt="Buscar..." class="btnBusca"/>
-              <input type="text" class="txtBusca" placeholder="Buscar..."/>
-              
+            <form class="pesq" action="buscar.php" method="post">
+                pesquisar<input type="text" name="buscar" value=""><br>
+                <button class="btn" type="submit" name="Buscar">Buscar</button>
+            </form>
             </div>
             <div class="container-dicas">
                 <section class="dicas">

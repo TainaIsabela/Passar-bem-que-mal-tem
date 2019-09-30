@@ -1,42 +1,31 @@
-.txtBusca{
-  font-family: "Noto Serif SC";
-  background-color:transparent;
-  padding-left:3%; 
-  font-size:3.5vh;
-  border:none;
-  height:100%;
-  width:70%;
-}
+font-family: 'Playfair Display SC', serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Karma', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Noto Serif SC', serif;
+
 .buscar{
   height: 80%;
   width: 9%;
 }
-.btnBusca{
-  height: 80%;
-  width: 9%;
-  float:left;
-  cursor:pointer;
-}
- 
-.divBusca img{
-  padding-top: 1.5%;
-  float: right;
-  padding-right: 1.5%;
+.pesq{
+font-family: 'Marcellus';
+font-size: 1.2rem;
+padding-left: 35%;
+padding-top: 10%;
 }
 
-input:focus {
-    outline:none;
-}
- 
-.divBusca{
-  margin-top: 5%;
-  border:solid 4px rgba(179, 142, 255, 0.8);
-  border-radius:10px;
-  height:6vh;
-  width:55vh;
-  margin-left: 35%;
-}
+.btn{
+margin-top: 7%;
+margin-left: 15%;
+font-family: 'Marcellus';
+font-size: 1.2rem;
+width: 4.5rem;
+height: 2.5rem;
+color:white;
+background-color: rgba(179, 142, 255, .9);
 
-.divBusca:active{
-  text-decoration: none;
+text-decoration: none;
+border-radius: 5px;
 }
