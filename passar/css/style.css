@@ -14,6 +14,10 @@ font-family: 'Noto Serif SC', serif;
   font-family:"Watermelon";
   src:url("fontes/watermelon/Watermelon.ttf") format("truetype");
 }
+.logo{
+  height: 4.5rem;
+  margin-top: 5%;
+}
 
 .nave {
     background: #B38EFF;
@@ -32,21 +36,22 @@ font-family: 'Noto Serif SC', serif;
     list-style:  none;
     display: inline;
     margin-right: 40%;
-    margin-left: 7%;
+    margin-left: 12%;
     
 }
 
 .tit--li {
-    font-size: 25px;
-    font-family: "Karma";
+    
 }
 
 .menu {
+    margin-left: 3%;
     list-style: none;
+    margin-top: 1.2%;
 }
 
 .menu--li{
-    margin-top: 5%;
+    
     display: inline;
     margin-right: 3%;
 }
@@ -348,7 +353,7 @@ display: inline-grid;
 /*Sticky Nav*/
 #navbar {
   overflow: hidden;
-  padding: 25px;
+  padding: 5px;
    background: #B38EFF;
    z-index: 1000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -366,5 +371,5 @@ display: inline-grid;
 
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 40px;
 }
