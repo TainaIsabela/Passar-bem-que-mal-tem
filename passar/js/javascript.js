@@ -45,7 +45,34 @@ function InicioTeste(){
 			six[i].checked = false;
 		}
 	}
+
+	var seven = document.getElementsByName("seven");
+	for (var i = 0; i < six.length; i++) {
+		if(seven[i].checked){
+			seven[i].checked = false;
+		}
+	}
 	
+	var eight = document.getElementsByName("eight");
+	for (var i = 0; i < six.length; i++) {
+		if(eight[i].checked){
+			eight[i].checked = false;
+		}
+	}
+
+	var nine = document.getElementsByName("nine");
+	for (var i = 0; i < six.length; i++) {
+		if(nine[i].checked){
+			nine[i].checked = false;
+		}
+	}
+
+	var ten = document.getElementsByName("ten");
+	for (var i = 0; i < six.length; i++) {
+		if(ten[i].checked){
+			ten[i].checked = false;
+		}
+	}
 }
 function Teste()
 {
