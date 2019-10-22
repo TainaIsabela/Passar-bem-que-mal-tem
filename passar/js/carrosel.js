@@ -3,7 +3,15 @@ showSlides(slideIndex);
 
 // Next/previous controls
 function plusSlides(n) {
+  if (slideIndex != 15) {
   showSlides(slideIndex += n);
+}
+}
+
+function plusSlides2(n) {
+  if (slideIndex != 1) {
+  showSlides(slideIndex += n);
+}
 }
 
 // Thumbnail image controls
