@@ -147,7 +147,7 @@ input:focus {
     text-align: center;
   }
 .quiztit{
-  margin-top: 50%;
+  margin-top: 8%;
   text-align: center;
   color:  #B38EFF;
   margin-bottom: 
@@ -251,9 +251,9 @@ outline: none;
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 30%;
   width: auto;
-  margin-top: -22px;
+  margin-top: -40px;
   padding: 16px;
   color: black;
   font-weight: bold;
