@@ -73,9 +73,20 @@ function InicioTeste(){
 			ten[i].checked = false;
 		}
 	}
+
+	var eleven = document.getElementsByName("eleven");
+	for (var i = 0; i < six.length; i++) {
+		if(eleven[i].checked){
+			eleven[i].checked = false;
+		}
+	}
+
+	var twelve 
 }
 function Teste()
 {
+	var dot = document.getElementByClassName("dot");
+	var d1 = document.getElementById("d1");
 	prod = 0;
 	var one = document.getElementsByName("one");
 	for (var i = 0; i < one.length; i++) {
