@@ -47,11 +47,11 @@ font-family: 'Noto Serif SC', serif;
 .menu {
     margin-left: 3%;
     list-style: none;
-    margin-top: 1.5%;
+    margin-top: 1.8%;
 }
 
 .menu--li{
-    
+    font-family: "Bad Script";
     display: inline;
     margin-right: 3%;
 }
