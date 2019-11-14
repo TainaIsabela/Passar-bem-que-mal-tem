@@ -81,11 +81,38 @@ function InicioTeste(){
 		}
 	}
 
-	var twelve 
+	var twelve = document.getElementsByName("twelve");
+	for (var i = 0; i < twelve.length; i++) {
+		if(twelve[i].checked){
+			twelve[i].checked = false;
+		}
+	}
+
+	var thirteen = document.getElementsByName("thirteen");
+	for (var i = 0; i < thirteen.length; i++) {
+		if(thirteen[i].checked){
+			thirteen[i].checked = false;
+		}
+	}
+
+	var fourteen = document.getElementsByName("fourteen");
+	for (var i = 0; i < fourteen.length; i++) {
+		if(fourteen[i].checked){
+			fourteen[i].checked = false;
+		}
+	}
+
+	var fifteen = document.getElementsByName("fifteen");
+	for (var i = 0; i < fifteen.length; i++) {
+		if(fifteen[i].checked){
+			fifteen[i].checked = false;
+		}
+	}
+
 }
+
 function Teste()
 {
-	var dot = document.getElementByClassName("dot");
 	var d1 = document.getElementById("d1");
 	prod = 0;
 	var one = document.getElementsByName("one");
@@ -132,8 +159,71 @@ function Teste()
 		}
 	}
 
+	var seven = document.getElementsByName("seven");
+	for (var i = 0; i < seven.length; i++) {
+		if(seven[i].checked){
+			prod++;
+		}
+	}
 
-	if (prod == 6) {
+	var eight = document.getElementsByName("eight");
+	for (var i = 0; i < eight.length; i++) {
+		if(eight[i].checked){
+			prod++;
+		}
+	}	
+
+	var nine = document.getElementsByName("nine");
+	for (var i = 0; i < nine.length; i++) {
+		if(nine[i].checked){
+			prod++;
+		}
+	}	
+
+	var ten = document.getElementsByName("ten");
+	for (var i = 0; i < ten.length; i++) {
+		if(ten[i].checked){
+			prod++;
+		}
+	}	
+
+	var eleven = document.getElementsByName("eleven");
+	for (var i = 0; i < eleven.length; i++) {
+		if(eleven[i].checked){
+			prod++;
+		}
+	}	
+
+	var twelve = document.getElementsByName("twelve");
+	for (var i = 0; i < twelve.length; i++) {
+		if(twelve[i].checked){
+			prod++;
+		}
+	}	
+
+	var thirteen = document.getElementsByName("thirteen");
+	for (var i = 0; i < thirteen.length; i++) {
+		if(thirteen[i].checked){
+			prod++;
+		}
+	}	
+
+	var fourteen = document.getElementsByName("fourteen");
+	for (var i = 0; i < fourteen.length; i++) {
+		if(fourteen[i].checked){
+			prod++;
+		}
+	}	
+
+	var fifteen = document.getElementsByName("fifteen");
+	for (var i = 0; i < fifteen.length; i++) {
+		if(fifteen[i].checked){
+			prod++;
+		}
+	}
+
+
+	if (prod == 15) {
 
 	but = document.getElementById("but");
 	radio = document.getElementById("1");
@@ -150,6 +240,37 @@ function Teste()
 	radio13 = document.getElementById("13");
 	radio14 = document.getElementById("14");
 	radio15 = document.getElementById("15");
+	radio16 = document.getElementById("16");
+	radio17 = document.getElementById("17");
+	radio18 = document.getElementById("18");
+	radio19 = document.getElementById("19");
+	radio20 = document.getElementById("20");
+	radio21 = document.getElementById("21");
+	radio22 = document.getElementById("22");
+	radio23 = document.getElementById("23");
+	radio24 = document.getElementById("24");
+	radio25 = document.getElementById("25");
+	radio26 = document.getElementById("26");
+	radio27 = document.getElementById("27");
+	radio28 = document.getElementById("28");
+	radio29 = document.getElementById("29");
+	radio30 = document.getElementById("30");
+	radio31 = document.getElementById("31");
+	radio32 = document.getElementById("32");
+	radio33 = document.getElementById("33");
+	radio34 = document.getElementById("34");
+	radio35 = document.getElementById("35");
+	radio36 = document.getElementById("36");
+	radio37 = document.getElementById("37");
+	radio38 = document.getElementById("38");
+	radio39 = document.getElementById("39");
+	radio40 = document.getElementById("40");
+	radio41 = document.getElementById("41");
+	radio42 = document.getElementById("42");
+	radio43 = document.getElementById("43");
+	radio44 = document.getElementById("44");
+	radio45 = document.getElementById("45");
+
 	
 	/*Questão 1*/	
 	if (radio.checked == true) {
@@ -189,6 +310,66 @@ function Teste()
 	/*Questão 6*/
 	if (radio14.checked == true){
 		aud = aud + 1;
+	}
+	/*Questão 7*/
+	if (radio19.checked == true){
+		sin = sin + 1;
+	} 
+	/*Questão 8*/
+	if (radio22.checked == true){
+		sin = sin + 1;
+	} 
+	/*Questão 9*/
+	if (radio25.checked == true){
+		sin = sin + 1;
+	}
+	if (radio26.checked == true){
+		aud = aud + 1;
+	}
+	if (radio27.checked == true){
+		vis = vis + 1;
+	}
+	/*Questão 10*/
+	if (radio28.checked == true){
+		aud = aud + 1;
+	}
+	/*Questão 11*/
+	if (radio31.checked == true){
+		vis = vis + 1;
+	}
+	if (radio32.checked == true){
+		aud = aud + 1;
+	}
+	if (radio33.checked == true){
+		sin = sin + 1;
+	}
+	/*Questão 12*/
+	if (radio34.checked == true){
+		vis = vis + 1;
+	}
+	/*Questão 13*/
+	if (radio37.checked == true){
+		vis = vis + 1;
+	}
+	if (radio38.checked == true){
+		aud = aud + 1;
+	}
+	if (radio39.checked == true){
+		sin = sin + 1;
+	}
+	/*Questão 14*/
+	if (radio40.checked == true){
+		vis = vis + 1;
+	}
+	/*Questão 15*/
+	if (radio43.checked == true){
+		sin = sin + 1;
+	}
+	if (radio44.checked == true){
+		aud = aud + 1;
+	}
+	if (radio45.checked == true){
+		vis = vis + 1;
 	}
 	if (aud>vis && aud==sin){
 			location.href = "teste/audcin.html"
