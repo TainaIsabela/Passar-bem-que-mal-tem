@@ -1,0 +1,79 @@
+font-family: 'Playfair Display SC', serif;
+font-family: 'Bad Script', cursive;
+font-family: 'Karma', serif;
+font-family: 'Marcellus', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Noto Serif SC', serif;
+
+
+
+.buscar{
+  height: 80%;
+  width: 9%;
+}
+.pesq{
+font-family: 'Marcellus';
+font-size: 1.2rem;
+padding-left: 35%;
+padding-top: 5%;
+}
+.form-contact {
+  margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
+  font-family: "Arial", Times, serif;
+}
+.con-pes{
+  height: 50rem;
+}
+.form-contact-input {
+  font-size: 2.5vh;	
+  width: 60%;
+  color: #292929;
+  font-size: 18px;
+  background-color: #E9E9E9;
+  border: 2px solid #E9E9E9;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  text-indent: 20px;
+  margin-left: -3%;
+}
+.form-contact-button {
+  font-size: 2.5vh;
+  width: 60%;
+  font-size: 18px;
+  border-radius: 4px;
+  color: white;
+  height: 40px;
+  opacity: .8;
+  margin-bottom: 5%;
+  cursor: pointer;
+  background: rgba(159, 78, 255, 0.9);
+  display: block;
+  border: none;
+  box-shadow: 8px 20px 40px 8px rgba(0, 0, 0, 0.3);
+  transition: 1s;
+  margin-left: 18.5%;
+}
+
+.form-contact-button:hover {
+  opacity: 1;
+}
+.formu{
+  text-align: center;
+  color: white;
+  padding-top: 3%;
+  font-family:"Karma";
+	color: white;
+	margin-top: 5%;
+	margin-left: 28%;
+	width: 45%;
+	height: 25rem;
+	background-color: #B38EFF;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
